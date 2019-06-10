@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM ubuntu:latest
 MAINTAINER Vladimir Pereskokov <markule@mail.ru>
 RUN apt-get update && apt-get install -y mysql-server
 EXPOSE 3306
